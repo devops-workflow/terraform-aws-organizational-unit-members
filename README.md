@@ -7,7 +7,6 @@ Terraform module to move member accounts to the right organizational units
 
 This is assumed to be a temporary implementation until OU support is added to Terraform
 
-
 [Terraform registry](https://registry.terraform.io/modules/devops-workflow/organizational-unit-members/aws)
 
 ## Usage
