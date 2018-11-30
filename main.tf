@@ -12,7 +12,7 @@ data "external" "organizational_unit_members" {
 resource "null_resource" "organizational_unit_members" {
   triggers = {
     aws_profile  = "${var.aws_profile}"
-    account_list = "${var.ou_account_list}"
+    account_list = "${var.account_list}"
   }
 
   provisioner "local-exec" {
