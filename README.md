@@ -29,7 +29,6 @@ module "organizational-unit-members" {
 |------|-------------|:----:|:-----:|:-----:|
 | account\_list | List of member account and organizational units they should be into. Format: {account id}:{ou name} {account id}:{ou name} | string | - | yes |
 | aws\_profile | AWS profile in local credentials file that has rights to master account | string | - | yes |
-| aws\_region | AWS region | string | `us-east-1` | no |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM GRAPH HOOK -->

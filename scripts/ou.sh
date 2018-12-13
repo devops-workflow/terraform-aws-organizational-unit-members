@@ -31,7 +31,7 @@ for ou in ${ou_exists_list}; do
 done
 
 # ?? account_exists_list=$(aws organizations list-accounts --profile appzen-admin |jq -r .)
-for account_ou in $(account_list); do
+for account_ou in ${account_list}; do
   # if account not exist, create - Done by terraform
   # if account not in ou then move - How to check
     # list-accounts-for-parent or list-children to check if account is in OU
